@@ -1,0 +1,26 @@
+{
+  "name": "Monday Morning",
+  "slug": "monday-morning",
+  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
+  "sizes": [
+    {
+      "name": "Large",
+      "slug": "large",
+      "quantity": "1 lb",
+      "price": 20
+    },
+    {
+      "name": "Medium",
+      "slug": "medium",
+      "quantity": "1/2 lb",
+      "price": 15
+    },
+    {
+      "name": "Small",
+      "slug": "small",
+      "quantity": "1/4 lb",
+      "price": 10
+    }
+  ],
+  "image": "https://cdn.shopify.com/s/files/1/0605/0555/5177/files/MondayMorning_1_1445x_1_400x400.png?v=1709661900"
+}
