@@ -5,7 +5,7 @@ import check from "@/assets/check.png";
 
 export const Header = () => {
   return (
-    <header className="h-[116px] py-[18px] md:block flex flex-wrap">
+    <header className="h-[116px] py-[18px] md:block flex flex-wrap border-b-[1px] border-[#DCDCDC]">
       <div className="max-w-[938px] m-auto">
         <Image
           className="w-[125px] h-[32px]"
