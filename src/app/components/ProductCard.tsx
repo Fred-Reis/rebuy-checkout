@@ -6,6 +6,7 @@ import Image from "next/image";
 import { Button } from "./Button";
 import { Dropdown } from "./Dropdown";
 import { parseSizeOptions } from "../utils/parseOptions";
+import { shippmentTaxCalculate } from "@/utils/shippmentTaxCalculate";
 
 interface SizeProps {
   name: string;
@@ -170,7 +171,7 @@ export const ProductCard = memo(ProductCardComponent);
 
 const Total = ({ quantity, price, setTotal }: TotalProps) => {
   const subTotal = quantity * price;
-  const shippingTaxes = subTotal * 0.05;
+  const shippingTaxes = shippmentTaxCalculate(subTotal);
   const taxes = 0;
   const total = subTotal + shippingTaxes + taxes;
 
