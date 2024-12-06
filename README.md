@@ -129,7 +129,7 @@ Planned features:
 <br/>
 
 <p align="center">
-If you’ve made it this far, it means everything went smoothly 🙏🏼, and you should be able to access the news in your browser 😱!!!
+If you’ve made it this far, it means everything went smoothly 🙏🏼, and you should be able to access the checkout page in your browser 😱!!!
 <p>
 
 <h4 align="center">
